@@ -48,6 +48,13 @@ django-admin startproject task
 cd task/
 python manage.py startapp taskm 
 ```
+
+### create a .env file in your inner task folder that is task/task/.env
+```
+GOOGLE_OAUTH_CLIENT_ID=YOUR OATUH CLIENT ID
+GOOGLE_SECRET_KEY=YOUR SECRET KEY
+```
+
 ### Creating urls.py, forms.py for taskm
 ![image](https://github.com/user-attachments/assets/5b921869-f7eb-410b-8688-f18d30a1edd9)
 
