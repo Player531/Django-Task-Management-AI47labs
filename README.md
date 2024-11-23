@@ -18,10 +18,14 @@ python -m venv env
 .\env\Scripts\activate
 pip install requirements.txt
 ```
-### Making the task project
+### Making the task project and creating taskmanagement(taskm) app
 ```
 django-admin startproject task
 cd task/
-python manage.py startapp taskm #task management app
+python manage.py startapp taskm 
 ```
+### Creating urls.py, forms.py for taskm
+![image](https://github.com/user-attachments/assets/5b921869-f7eb-410b-8688-f18d30a1edd9)
+
+
 
