@@ -24,8 +24,9 @@ pip install requirements.txt
 ### After enabling the environment modify the base_site.html
 ```
 cd env\Lib\site-packages\django\contrib\admin\templates\admin\
-
-**base_site.html**
+```
+### base_site.html
+```
 {% extends "admin/base.html" %}
 {% load i18n %}
 
@@ -38,8 +39,9 @@ cd env\Lib\site-packages\django\contrib\admin\templates\admin\
 <ul> 
   <li><a href="{% url 'invite_user' %}">Invite a New User</a></li></ul>
 {% endblock %}
-
 ```
+
+
 ### Making the task project and creating taskmanagement(taskm) app
 ```
 django-admin startproject task
