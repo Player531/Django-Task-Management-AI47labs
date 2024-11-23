@@ -75,10 +75,14 @@ LOGOUT_REDIRECT_URL = "/"
 - passing primary key with update and delete operations so that only those users can be updated and deleted
 - Created forms for taking user's title and description using django modelforms
 
+## Getting Google secret Key and Client
+
 ## Enabling admin to manage Oauth keys and Enabling invitation via email
 - Modifying the base_site.html in django templates to provide custom admin site
 ![Screenshot 2024-11-23 135517](https://github.com/user-attachments/assets/bfc49a67-c167-408b-9fd7-92008dfcb312)
 ![image](https://github.com/user-attachments/assets/e0a02618-502d-4c43-8d01-cfef87849f67)
+![image](https://github.com/user-attachments/assets/b2f3d1ef-3170-4891-8809-fccae3459592)
+
 
 
 
