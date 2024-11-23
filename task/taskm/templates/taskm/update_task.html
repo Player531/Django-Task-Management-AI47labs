@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Task</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            {% comment %} overflow: hidden; {% endcomment %}
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .form-container {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .form-container form input, .form-container form textarea, .form-container form button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-container form button {
+            background: #77aaff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .form-container form button:hover {
+            background: #5599ff;
+        }
+        .logout-button { 
+            color: #fff; 
+            background-color: #ff4d4d;  
+            padding: 5px 10px; 
+            border-radius: 4px; 
+            text-decoration: none; 
+        } 
+        .logout-button:hover { 
+            background-color: #ff1a1a; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'logout' %}" class="logout-button">Logout</a></li>
+                    <li>You are signed in as {{ user.email }}</li>
+                {% endif %}
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-container">
+            <h1>Update Task</h1>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Update Task</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
