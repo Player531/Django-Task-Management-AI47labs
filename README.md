@@ -4,19 +4,6 @@ A task given by AI47 labs
 https://github.com/user-attachments/assets/55d54743-11d9-47f3-a84b-3f04c5241947
 
 
-
-## Home Page
-![image](https://github.com/user-attachments/assets/13f1ee61-ef16-4c17-9a9f-8ea03fb702f0)
-
-## Task List Page
-![image](https://github.com/user-attachments/assets/f7edcadf-1afb-4824-8ac6-238183214442)
-
-## Create Task Page
-![image](https://github.com/user-attachments/assets/f6a98e9c-edc2-4872-93b4-9ec249911dd1)
-
-## Update Task Page
-![image](https://github.com/user-attachments/assets/041140fe-dd50-4584-b380-472dc07d1310)
-
 # Objective
 Create a task management web app where users can manage personal tasks after logging in with their google account.
 
