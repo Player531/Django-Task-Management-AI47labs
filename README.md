@@ -67,5 +67,18 @@ LOGIN_REDIRECT_URL = '/taskm/'
 LOGOUT_REDIRECT_URL = "/"
 ```
 
+## Creating Models, Views, forms and configuring urlpatterns
+- Created different models so that user can perform create, view, edit and delete operations
+- Created a foreign key relationship such that only one task is associated with one user and in combination with filter provides access to specific user
+- filter views so that each users can only perform operations based on their account login with ```@login_required``` decorator for each function
+- Configured the urlpatterns so that it routes the user in a proper way to those views
+- passing primary key with update and delete operations so that only those users can be updated and deleted
+- Created forms for taking user's title and description using django modelforms
+
+## Enabling admin to manage Oauth keys and Enabling invitation via email
+- Modifying the base_site.html in django templates to provide custom admin site
+  ![Screenshot 2024-11-23 113641](https://github.com/user-attachments/assets/72cc9f8d-3812-40ab-bc82-cce7a0461dc2)
+
+
 
 
