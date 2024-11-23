@@ -11,3 +11,7 @@ Create a task management web app where users can manage personal tasks after log
 - Admin Panel, Allow admin to store and manage google OAuth keys for the app
 - Enable admin to invite new users by sending an email with a registration link
 
+# Creating the Django project
+```
+pip install Django
+```
