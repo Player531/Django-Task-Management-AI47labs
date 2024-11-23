@@ -76,6 +76,11 @@ LOGOUT_REDIRECT_URL = "/"
 - Created forms for taking user's title and description using django modelforms
 
 ## Getting Google secret Key and Client
+- [Go to Google Console and get the secret and client key](https://console.cloud.google.com/apis/credentials/oauthclient)
+- Create New OAuth project
+![Screenshot 2024-11-22 231248](https://github.com/user-attachments/assets/9f24a07b-80e0-4d51-b141-32a5800a7847)
+- Go to credentials and create Authorized redirect URIs
+![Screenshot 2024-11-22 231346](https://github.com/user-attachments/assets/88841332-c632-4b6a-87d3-decc307c8952)
 
 ## Enabling admin to manage Oauth keys and Enabling invitation via email
 - Modifying the base_site.html in django templates to provide custom admin site
