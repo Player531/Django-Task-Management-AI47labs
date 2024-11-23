@@ -77,7 +77,9 @@ LOGOUT_REDIRECT_URL = "/"
 
 ## Enabling admin to manage Oauth keys and Enabling invitation via email
 - Modifying the base_site.html in django templates to provide custom admin site
-  ![Screenshot 2024-11-23 113641](https://github.com/user-attachments/assets/72cc9f8d-3812-40ab-bc82-cce7a0461dc2)
+![Screenshot 2024-11-23 135517](https://github.com/user-attachments/assets/bfc49a67-c167-408b-9fd7-92008dfcb312)
+![image](https://github.com/user-attachments/assets/e0a02618-502d-4c43-8d01-cfef87849f67)
+
 
 
 
