@@ -1,6 +1,22 @@
 # Django-Task-Management-AI47labs
 A task given by AI47 labs
 
+https://github.com/user-attachments/assets/55d54743-11d9-47f3-a84b-3f04c5241947
+
+
+
+## Home Page
+![image](https://github.com/user-attachments/assets/13f1ee61-ef16-4c17-9a9f-8ea03fb702f0)
+
+## Task List Page
+![image](https://github.com/user-attachments/assets/f7edcadf-1afb-4824-8ac6-238183214442)
+
+## Create Task Page
+![image](https://github.com/user-attachments/assets/f6a98e9c-edc2-4872-93b4-9ec249911dd1)
+
+## Update Task Page
+![image](https://github.com/user-attachments/assets/041140fe-dd50-4584-b380-472dc07d1310)
+
 # Objective
 Create a task management web app where users can manage personal tasks after logging in with their google account.
 
@@ -79,6 +95,7 @@ LOGOUT_REDIRECT_URL = "/"
 - [Go to Google Console and get the secret and client key](https://console.cloud.google.com/apis/credentials/oauthclient)
 - Create New OAuth project
 ![Screenshot 2024-11-22 231248](https://github.com/user-attachments/assets/9f24a07b-80e0-4d51-b141-32a5800a7847)
+
 - Go to credentials and create Authorized redirect URIs
 ![Screenshot 2024-11-22 231346](https://github.com/user-attachments/assets/88841332-c632-4b6a-87d3-decc307c8952)
 
